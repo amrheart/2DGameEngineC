@@ -1,0 +1,155 @@
+<body>
+<canvas id="newCanvas" width="900" height="900" style="border:1px solid #cfcfcf">Canvas not supported</canvas>
+<button onclick="begin_test()">Push Me</button>
+<script>
+// class bar will define a moving bar which moves with a cos curve
+// this will allow me to iterate over a list of bars to reduce repitition
+class Bar{
+	constructor(width, height, start_angle, start_x, start_y, color){
+		this.width = width;
+		this.height = height;
+		this.start_angle = start_angle;
+		this.start_x = start_x;
+		this.start_y = start_y;
+		this.color = color;
+	}
+}
+
+var height = 900;
+var width = 900;
+
+//initialize bars
+let bar1 = new Bar(20, height, Math.PI, -10, 0, "blue");
+let bar2 = new Bar(20, height, 0, width-10, 0, "red");
+let bar3 = new Bar(width, 20, 3*(Math.PI/2), 0, -10, "#6fff00");
+let bar4 = new Bar(width, 20, Math.PI/2, 0, height-10, "magenta");
+
+// this context will be used for the background and bars
+var temp = document.getElementById("newCanvas");
+var context = temp.getContext("2d");
+
+let bars = [bar1, bar2, bar3, bar4]
+
+// draw the background and bars to start
+context.fillStyle = "#8934eb";
+context.fillRect(0, 0, width, height);
+context.stroke();
+
+// draw bars
+for(let i = 0; i<bars.length; i++){
+	context.fillStyle = bars[i].color;
+	context.fillRect(bars[i].start_x, bars[i].start_y, bars[i].width, bars[i].height);
+	context.stroke();
+}
+
+// set up some text
+context.textBaseline = "middle";
+context.textAlign = "center";
+context.font = "30px Fantasy";
+context.strokeStyle = "black";
+context.strokeText("Fun Patterns", width/2, height/2);
+context.fillStyle = "#00fff2";
+context.fillText("Fun Patterns", width/2, height/2);
+
+// set up a box around the center
+context.strokeStyle = "#ffa200";
+context.strokeRect(225,225, 450, 450);
+context.stroke();
+
+// set up a box around the center
+context.strokeRect(10 ,10, 880, 880);
+context.stroke();
+
+context.strokeRect(120, 120, 665, 665);
+context.stroke();
+
+// set up lines that connect the boxes
+context.beginPath();
+context.moveTo(10,10);
+context.lineTo(225,225);
+context.stroke();
+
+context.beginPath();
+context.moveTo(890,10);
+context.lineTo(675,225);
+context.stroke();
+
+context.beginPath();
+context.moveTo(890,890);
+context.lineTo(675,675);
+context.stroke();
+
+context.beginPath();
+context.moveTo(10,890);
+context.lineTo(225,675);
+context.stroke();
+
+function begin_test(){
+	// always start by clearing screen
+	context.fillStyle = "#8934eb";
+	context.fillRect(0, 0, width, height);
+	context.stroke();
+
+	// draw all the static images first
+	context.font = "30px Fantasy";
+	context.strokeStyle = "black";
+	context.strokeText("Fun Patterns", width/2, height/2);
+	context.fillStyle = "#00fff2";
+	context.fillText("Fun Patterns", width/2, height/2);
+
+	// set up a box around the center
+	context.strokeStyle = "#ffa200";
+	context.strokeRect(225,225, 450, 450);
+	context.stroke();
+	context.strokeRect(10 ,10, 880, 880);
+	context.stroke();
+	context.strokeRect(120, 120, 665, 665);
+	context.stroke();
+
+	// set up lines that connect the boxes
+	context.beginPath();
+	context.moveTo(10,10);
+	context.lineTo(225,225);
+	context.stroke();
+
+	context.beginPath();
+	context.moveTo(890,10);
+	context.lineTo(675,225);
+	context.stroke();
+
+	context.beginPath();
+	context.moveTo(890,890);
+	context.lineTo(675,675);
+	context.stroke();
+
+	context.beginPath();
+	context.moveTo(10,890);
+	context.lineTo(225,675);
+	context.stroke();
+
+	// now perform calculation for angle on each bar
+	for(let i = 0; i<bars.length; i++){
+		bars[i].start_angle = bars[i].start_angle + (Math.PI/100);
+	}
+
+	// now change x or y values depending on which axis bar will travel
+	// use width/2 or height/2 because it will span the whole screen
+	bars[0].start_x = Math.cos(bars[0].start_angle)*(width/2) + width/2 - 10;
+	bars[1].start_x = Math.cos(bars[1].start_angle)*(width/2) + width/2 - 10; 
+	bars[2].start_y = Math.sin(bars[2].start_angle)*(height/2) + height/2 - 10;
+	bars[3].start_y = Math.sin(bars[3].start_angle)*(height/2) + height/2 - 10;
+
+	// draw each bar
+	for(let i = 0; i<bars.length; i++){
+		context.fillStyle = bars[i].color;
+		context.fillRect(bars[i].start_x, bars[i].start_y, bars[i].width, bars[i].height);
+		context.stroke();
+	}
+
+	// wait 25 milliseconds then loop
+	setTimeout(begin_test, 25);
+}
+
+	
+</script>
+</body>

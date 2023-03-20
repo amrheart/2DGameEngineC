@@ -1,0 +1,2 @@
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Debug\sfmltest.exe
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Debug\sfmltest.pdb

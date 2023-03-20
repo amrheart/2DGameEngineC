@@ -1,0 +1,55 @@
+<body>
+<canvas id="newCanvas" width="900" height="900" style="border:1px solid #cfcfcf">Canvas not supported</canvas>
+<script>
+var temp = document.getElementById("newCanvas");
+var context = temp.getContext("2d");
+context.fillStyle = "#8934eb";
+context.fillRect(0, 0, 100, 100);
+context.stroke();
+var img1 = new Image();
+img1.src = "ShortSword.png"
+//img1.onload = function(){
+//	context.drawImage(img1,0,0);
+//}
+class Sprite{
+	constructor(height,width,image){
+		this.height = height;
+		this.width = width;
+		this.image = image;
+
+		this.texture = new Image();
+		this.texture.src = this.image;
+	}
+	drawSprite(){
+		var temp = document.getElementById("newCanvas");
+		var context = temp.getContext("2d");
+		context.drawImage(this.texture,0,0)
+	}
+}
+
+class Scene{
+	contructor(height, width, sprite){
+		this.height = height;
+		this.width = width;
+		this.x_pos = 0;
+		this.y_pos = 0;
+		this.sprite = sprite;
+
+	}
+
+	// Goes through and lets every sprite update
+	update(){
+		var x = 0
+	}
+
+	// Draw the scene
+	drawScene(){
+		this.sprite.drawSprite();
+	}
+}
+var n_sprite = new Sprite(100,100,"ShortSword.png");
+n_sprite.drawSprite();
+var scene = new Scene(100,100,n_sprite);
+//scene.drawScene();
+</script>
+</body>

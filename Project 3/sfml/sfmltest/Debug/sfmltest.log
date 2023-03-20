@@ -1,0 +1,116 @@
+﻿  ItemSprite.cpp
+  Menu.cpp
+  MushyManSprite.cpp
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\ReinerSprite.h(22,20): warning C4305: 'initializing': truncation from 'double' to 'const float'
+  OrcSprite.cpp
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\ReinerSprite.h(22,20): warning C4305: 'initializing': truncation from 'double' to 'const float'
+  PlayerSprite.cpp
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\PlayerSprite.cpp(15,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  ReinerSprite.cpp
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\ReinerSprite.h(22,20): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\ReinerSprite.cpp(17,26): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\ReinerSprite.cpp(32,71): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\ReinerSprite.cpp(32,50): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\ReinerSprite.cpp(63,26): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\ReinerSprite.cpp(230,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\ReinerSprite.cpp(243,62): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\ReinerSprite.cpp(243,41): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+  RPGStats.cpp
+  Scene.cpp
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\ReinerSprite.h(22,20): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Scene.cpp(8,27): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Scene.cpp(26,56): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Scene.cpp(26,39): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Scene.cpp(42,55): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Scene.cpp(42,38): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Scene.cpp(43,72): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Scene.cpp(43,38): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Scene.cpp(44,77): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Scene.cpp(44,39): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Scene.cpp(45,74): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Scene.cpp(45,36): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Scene.cpp(126,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Scene.cpp(136,12): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Scene.cpp(191,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Scene.cpp(192,29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Scene.cpp(196,12): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Scene.cpp(197,12): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Scene.cpp(210,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Scene.cpp(210,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Scene.cpp(227,23): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Scene.cpp(235,24): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  SideViewSprite.cpp
+  Source.cpp
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\ReinerSprite.h(22,20): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Source.cpp(23,92): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Source.cpp(24,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Source.cpp(139,25): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Source.cpp(184,68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Source.cpp(184,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Source.cpp(204,57): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Source.cpp(204,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Source.cpp(271,63): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Source.cpp(271,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Source.cpp(413,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Source.cpp(417,69): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Source.cpp(422,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  MySprite.cpp
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\MySprite.cpp(60,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\MySprite.cpp(115,43): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\MySprite.cpp(149,12): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\MySprite.cpp(150,12): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  tempstorage.cpp
+  Generating Code...
+  sfmltest.vcxproj -> C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Debug\sfmltest.exe

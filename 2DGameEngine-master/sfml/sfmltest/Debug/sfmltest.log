@@ -1,0 +1,26 @@
+﻿  Source.cpp
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Source.cpp(8,25): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Source.cpp(101,53): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Source.cpp(101,36): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Source.cpp(102,42): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Source.cpp(103,29): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Source.cpp(125,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Source.cpp(125,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Source.cpp(127,26): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Source.cpp(177,44): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Source.cpp(178,46): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Source.cpp(181,45): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Source.cpp(182,45): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Source.cpp(185,40): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Source.cpp(188,41): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Source.cpp(192,45): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Source.cpp(195,44): warning C4305: 'argument': truncation from 'double' to 'float'
+  sfmltest.vcxproj -> C:\Users\Alex\Desktop\2D graphics\Project 3\sfml\sfmltest\Debug\sfmltest.exe

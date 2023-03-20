@@ -1,0 +1,42 @@
+<body>
+<canvas id="newCanvas" width="900" height="900" style="border:1px solid #cfcfcf">Canvas not supported</canvas>
+<button>Push Me</button>
+<script>
+class Scene{
+	constructor(height, width, FPS, x_pos, y_pos, canvas){
+		this.height = height;
+		this.width = width;
+		this.FPS = FPS;
+		this.x_pos = x_pos;
+		this.y_pos = y_pos;
+		//this.background_image = background_image;
+		//this.list_of_sprites = [];
+		this.number_of_sprites = 0;
+		this.canvas = canvas;
+		this.context = this.canvas.getContext("2D");
+	}
+
+	AddSprite(){
+		//this.list_of_sprites.append(sprite)
+		this.number_of_sprites += 1;
+	}
+
+	DrawSprites(){
+		// first draw the background
+		this.context.fillStyle = "#8934eb";
+		this.context.fillRect(0, 0, this.width, this.height);
+		this.context.stroke();
+		for (let i = 0; i < this.number_of_sprites; i++){
+			//this.list_of_sprites[i].Draw()
+		}
+	}
+
+	Update(){
+		return 0;
+	}
+}
+var canvas = document.getElementById("newCanvas");
+let new_scene = new Scene(500, 500, 15, 100, 100, canvas);
+new_scene.DrawSprites();
+</script>
+</body>
